@@ -81,7 +81,7 @@ function applyAlphabetFormat(square, item) {
         square.appendChild(correctAnswer);
         square.classList.add('correct-square');
         const smileImage = document.createElement('img');
-        smileImage.src = 'images/Hu_smile.png';
+        smileImage.src = 'Hu_smile.png';
         smileImage.classList.add('correct-img');
         square.appendChild(smileImage);
     // student is wrong
@@ -132,7 +132,7 @@ function applyPhonemeFormat(square, item) {
             if (item.word.status === statuses[0]){
                 square.classList.add('correct-square');   
                 const smileImage = document.createElement('img');
-                smileImage.src = 'images/Hu_smile.png';
+                smileImage.src = 'Hu_smile.png';
                 smileImage.classList.add('correct-img');
                 square.appendChild(smileImage);
             // 組合: 原始答案及後續訂正皆錯
@@ -173,7 +173,7 @@ function applyPhonemeFormat(square, item) {
             if (backgroundColor === squareColors.correct) {
                 square.classList.add('correct-square');
                 const smileImage = document.createElement('img');
-                smileImage.src = 'images/Hu_smile.png';
+                smileImage.src = 'Hu_smile.png';
                 smileImage.classList.add('correct-img');
                 square.appendChild(smileImage);
             // 切割: 原始答案及後續訂正皆錯
